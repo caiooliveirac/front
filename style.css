@@ -1,0 +1,45 @@
+html {
+    background-color:hsl(154, 17%, 92%);
+    font-size: large;
+}
+#titulo {
+    margin: 0;
+    padding: 200px;
+    text-align: center;
+    background-color:#1fc4d3;
+    overflow: hidden;
+    z-index: 1;
+}
+#subtitulo {
+    position: absolute;
+    width: 60vw;
+    text-align: center;
+    background-color: rgba(26, 65, 37, 0.205);
+    margin: auto 10vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    z-index: 2;
+    
+}
+
+.tabela1 {
+    position: absolute;
+
+    background-color: indianred;
+    display: table;
+    margin: auto 10vw;
+    overflow:visible;
+}
+
+thead, tbody {
+    
+}
+
+td, tr {  
+    padding: 8px 80px;
+    text-align: center;
+}
+
+
+
+
